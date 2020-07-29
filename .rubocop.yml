@@ -8,6 +8,9 @@ Style/EmptyMethod:
 Style/CaseLikeIf:
   Enabled: true
 
+Metrics/BlockLength:
+  ExcludedMethods: ['describe', 'context']
+
 Layout/EmptyLinesAroundAttributeAccessor:
   Enabled: false
 Layout/SpaceAroundMethodCallOperator:
